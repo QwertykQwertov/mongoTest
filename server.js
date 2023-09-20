@@ -1,7 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
 
-const moviesRoutes = require('./routes/movies')
+const moviesRoutes = require('./routes/movie-routes')
 
 const PORT = 3000
 const URL = 'mongodb://localhost:27017/moviebox'
